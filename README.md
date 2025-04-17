@@ -33,7 +33,7 @@ Step 7:Install dependencies: npm install
 Step 8:start the frontend server :npm run dev
 step 9:Configure Google OAuth
       Go to the Google Cloud Console.Create a new project or select an existing one.Set up OAuth 2.0 credentials with the following:
-      Authorized JavaScript origins: http://localhost:3000 Authorized redirect URIs: http://localhost:4000/api/auth/google/callback
+      Authorized JavaScript origins: add your frontend url 
       Copy your Client ID and Client Secret into the .env file in the backend.
 
         
